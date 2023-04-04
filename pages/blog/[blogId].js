@@ -8,7 +8,7 @@ function Blog({ title }, { description }) {
         <meta name="description" content={description} />
       </Head>
       <h1 className="content">
-        Env Address is {process.env.NEXT_PUBLIC_ADDRESS}
+        Env Address is {process.env.NEXT_PUBLIC_ANALYTICS_ID}
       </h1>
     </div>
   );
